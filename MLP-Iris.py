@@ -29,7 +29,9 @@ encoded_Y = encoder.transform(Y)
 dummy_y = np_utils.to_categorical(encoded_Y)
 
 def baseline_model():
+    #TODO: The Sequential model is a linear stack of layers.
     model = Sequential()
+    #TODO:  Dense is Just your regular densely-connected NN layer.
     model.add(Dense(90, input_dim=4, kernel_initializer='normal', activation='relu'))
     model.add(Dense(3, kernel_initializer='normal', activation='softmax'))
     model.compile(loss='categorical_crossentropy',optimizer='adam', metrics=['accuracy'])
