@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="52a573e6-e175-491a-81ec-b63b07f511d5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MLP-MNIST.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CNN-CIFAR.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CNN-MNIST.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MLP-Iris.py" afterPath="$PROJECT_DIR$/MLP-Iris.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MLP-MNIST.py" afterPath="$PROJECT_DIR$/MLP-MNIST.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,13 +14,33 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DockManager">
+    <window id="1">
+      <content type="file-editors">
+        <state>
+          <leaf>
+            <file leaf-file-name="Tensorflow_Convnet_2.py" pinned="false" current-in-tab="true">
+              <entry file="file://$PROJECT_DIR$/../Tensorflow-self-study/Tensorflow_Convnet_2.py">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="-132">
+                    <caret line="77" column="0" lean-forward="true" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
+                    <folding />
+                  </state>
+                </provider>
+              </entry>
+            </file>
+          </leaf>
+        </state>
+      </content>
+    </window>
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="MLP-Iris.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MLP-Iris.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="169">
-              <caret line="33" column="21" lean-forward="false" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
+            <state relative-caret-position="352">
+              <caret line="34" column="18" lean-forward="false" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -31,7 +52,7 @@
         <entry file="file://$PROJECT_DIR$/MLP-MNIST.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="264">
-              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+              <caret line="47" column="34" lean-forward="true" selection-start-line="47" selection-start-column="34" selection-end-line="47" selection-end-column="34" />
               <folding>
                 <element signature="e#0#37#0" expanded="true" />
               </folding>
@@ -39,31 +60,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="core.py" pinned="false" current-in-tab="false">
-        <entry file="file://C:/Program Files/Anaconda3/Lib/site-packages/keras/layers/core.py">
+      <file leaf-file-name="CNN-MNIST.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CNN-MNIST.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="188">
-              <caret line="729" column="52" lean-forward="true" selection-start-line="729" selection-start-column="7" selection-end-line="729" selection-end-column="52" />
-              <folding />
+            <state relative-caret-position="-22">
+              <caret line="109" column="3" lean-forward="false" selection-start-line="109" selection-start-column="3" selection-end-line="109" selection-end-column="3" />
+              <folding>
+                <element signature="e#0#37#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="scikit_learn.py" pinned="false" current-in-tab="false">
-        <entry file="file://C:/Program Files/Anaconda3/Lib/site-packages/keras/wrappers/scikit_learn.py">
+      <file leaf-file-name="CNN-CIFAR.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CNN-CIFAR.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-487">
-              <caret line="170" column="6" lean-forward="false" selection-start-line="170" selection-start-column="6" selection-end-line="170" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_split.py" pinned="false" current-in-tab="false">
-        <entry file="file://C:/Program Files/Anaconda3/Lib/site-packages/sklearn/model_selection/_split.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="166">
-              <caret line="402" column="31" lean-forward="false" selection-start-line="402" selection-start-column="23" selection-end-line="402" selection-end-column="31" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -86,12 +99,14 @@
       <list>
         <option value="$PROJECT_DIR$/MLP-Iris.py" />
         <option value="$PROJECT_DIR$/MLP-MNIST.py" />
+        <option value="$PROJECT_DIR$/CNN-CIFAR.py" />
+        <option value="$PROJECT_DIR$/CNN-MNIST.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-2" />
-    <option name="y" value="-12" />
+    <option name="y" value="-4" />
     <option name="width" value="1687" />
     <option name="height" value="1058" />
   </component>
@@ -110,7 +125,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -123,6 +137,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -141,7 +156,24 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.MLP-Iris">
+  <component name="RunManager" selected="Python.CNN-MNIST">
+    <configuration name="CNN-MNIST" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Practice Keras" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CNN-MNIST.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
     <configuration name="MLP-Iris" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -159,9 +191,33 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
+    <configuration name="MLP-MNIST" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Practice Keras" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MLP-MNIST.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <list size="3">
+      <item index="0" class="java.lang.String" itemvalue="Python.MLP-Iris" />
+      <item index="1" class="java.lang.String" itemvalue="Python.MLP-MNIST" />
+      <item index="2" class="java.lang.String" itemvalue="Python.CNN-MNIST" />
+    </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Python.MLP-Iris" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Python.CNN-MNIST" />
+        <item index="1" class="java.lang.String" itemvalue="Python.MLP-MNIST" />
+        <item index="2" class="java.lang.String" itemvalue="Python.MLP-Iris" />
       </list>
     </recent_temporary>
   </component>
@@ -185,7 +241,7 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14791666" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32814237" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4110629" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3557484" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32884398" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -212,6 +268,50 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/MLP-Iris.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="33" column="21" lean-forward="false" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Anaconda3/Lib/site-packages/keras/layers/core.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15598">
+          <caret line="729" column="52" lean-forward="true" selection-start-line="729" selection-start-column="7" selection-end-line="729" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Anaconda3/Lib/site-packages/keras/wrappers/scikit_learn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3542">
+          <caret line="170" column="6" lean-forward="false" selection-start-line="170" selection-start-column="6" selection-end-line="170" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Anaconda3/Lib/site-packages/sklearn/model_selection/_split.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8338">
+          <caret line="402" column="31" lean-forward="false" selection-start-line="402" selection-start-column="23" selection-end-line="402" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MLP-MNIST.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/MLP-Iris.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -254,7 +354,7 @@
     </entry>
     <entry file="file://C:/Program Files/Anaconda3/Lib/site-packages/sklearn/model_selection/_split.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
+        <state relative-caret-position="8338">
           <caret line="402" column="31" lean-forward="false" selection-start-line="402" selection-start-column="23" selection-end-line="402" selection-end-column="31" />
           <folding />
         </state>
@@ -262,26 +362,118 @@
     </entry>
     <entry file="file://C:/Program Files/Anaconda3/Lib/site-packages/keras/wrappers/scikit_learn.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-487">
+        <state relative-caret-position="3542">
           <caret line="170" column="6" lean-forward="false" selection-start-line="170" selection-start-column="6" selection-end-line="170" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Anaconda3/Lib/site-packages/keras/engine/topology.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="2702" column="59" lean-forward="true" selection-start-line="2702" selection-start-column="59" selection-end-line="2702" selection-end-column="59" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://C:/Program Files/Anaconda3/Lib/site-packages/keras/layers/core.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="729" column="52" lean-forward="true" selection-start-line="729" selection-start-column="7" selection-end-line="729" selection-end-column="52" />
+        <state relative-caret-position="-619">
+          <caret line="792" column="8" lean-forward="false" selection-start-line="792" selection-start-column="8" selection-end-line="792" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Anaconda3/Lib/site-packages/keras/backend/common.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="108" column="4" lean-forward="false" selection-start-line="108" selection-start-column="4" selection-end-line="108" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Anaconda3/Lib/site-packages/keras/layers/convolutional.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="424" column="8" lean-forward="false" selection-start-line="424" selection-start-column="8" selection-end-line="424" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Anaconda3/Lib/site-packages/keras/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="784" column="39" lean-forward="false" selection-start-line="784" selection-start-column="39" selection-end-line="784" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Anaconda3/envs/tensorflow/Lib/site-packages/tensorflow/contrib/keras/python/keras/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="745" column="38" lean-forward="true" selection-start-line="745" selection-start-column="38" selection-end-line="745" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../help/MyDataNeuralNetworkTensorflow.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-880">
+          <caret line="11" column="18" lean-forward="true" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNN-CIFAR.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Tensorflow-self-study/Tensorflow_Convnet_1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1657">
+          <caret line="14" column="73" lean-forward="true" selection-start-line="14" selection-start-column="73" selection-end-line="14" selection-end-column="73" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MLP-Iris.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="33" column="21" lean-forward="false" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
+        <state relative-caret-position="352">
+          <caret line="34" column="18" lean-forward="false" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Demo-GAN-excercise/GAN-first-demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="50" column="36" lean-forward="true" selection-start-line="50" selection-start-column="36" selection-end-line="50" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Tensorflow-self-study/Tensorflow_Convnet_2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-132">
+          <caret line="77" column="0" lean-forward="true" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNN-MNIST.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-22">
+          <caret line="109" column="3" lean-forward="false" selection-start-line="109" selection-start-column="3" selection-end-line="109" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -289,7 +481,7 @@
     <entry file="file://$PROJECT_DIR$/MLP-MNIST.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <caret line="47" column="34" lean-forward="true" selection-start-line="47" selection-start-column="34" selection-end-line="47" selection-end-column="34" />
           <folding>
             <element signature="e#0#37#0" expanded="true" />
           </folding>
